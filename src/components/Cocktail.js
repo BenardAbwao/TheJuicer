@@ -12,7 +12,7 @@ const Cocktail = ({cocktail}) => {
   <div className="cocktail-footer">
     <h3>{strDrink}</h3>
     <Link className='btn btn-primary btn-details' to={'/cocktail/'+idDrink}>Details</Link> <br/>
-    <Link className='btn btn-primary btn-order' to={'/cocktail/'}>Order Now</Link>
+    <Link className='btn btn-primary btn-order' to={'/order/'}>Order Now</Link>
   </div>
 </article>
   )
