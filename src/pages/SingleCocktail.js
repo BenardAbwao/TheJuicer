@@ -47,7 +47,7 @@ const SingleCocktail = () => {
                 {strCategory}
               </p>
               <p>
-                <span className="drink-data">Info :</span>
+                <span className="drink-data">Content :</span>
                 {strAlcoholic}
               </p>
               <p>
