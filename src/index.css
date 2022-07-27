@@ -181,10 +181,28 @@ Variables
     text-align: center;
     border-radius: 2rem;
   }
-  .section-links {
+
+  .section-contacts {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
+    margin-top: 60px;
+  }
+
+  a.twitter {
+    color: #00aced;
+  }
+  a.linkedin {
+    color: #0077b5;
+  }
+  a.instagram {
+    color: #e4405f;
+  }
+  a.facebook {
+    color: #0077b5;
+  }
+  a.github {
+    color: #444444;
   }
 
   /* 
