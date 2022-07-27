@@ -175,9 +175,18 @@ Variables
   }
   .section-description {
     line-height: 2rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 2px;
     color: var(--primaryColor);
+    text-align: center;
+    background: var(--mainWhite);
+    border-radius: 2rem;
+  }
+  .section-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: ;
   }
 
   /* 
