@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import SingleCocktail from "./pages/SingleCocktail";
 import Navbar from "./components/Navbar";
+import Order from "./pages/Order"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/cocktail/:Id" element={<SingleCocktail />} />
+          <Route path="/order" element={<Order />} />
         </Routes>
       </Router>
     </div>
