@@ -1,7 +1,5 @@
-/* 
-====== 
+/*  
 Variables 
-======
 */
 :root {
     --primaryLightColor: #939490;
@@ -25,9 +23,7 @@ Variables
     --fullWidth: 1170px;
   }
   /* 
-  ====== 
   Global Styles 
-  ======
   */
   * {
     margin: 0;
@@ -70,9 +66,7 @@ Variables
   }
   
   /* 
-  ====== 
   Buttons 
-  ======
   */
   .btn,
   .btn-white,
@@ -131,10 +125,8 @@ Variables
     margin-top: 5px;
   
   }
-  /* 
-  ====== 
+  /*  
   Navbar
-  ======
   */
   .navbar {
     background: var(--mainWhite);
@@ -174,37 +166,22 @@ Variables
     width: 12rem;
   }
   /* 
-  ====== 
   About
-  ======
   */
   .about-section {
     width: var(--smallWidth);
     max-width: var(--maxWidth);
     margin: 0 auto;
   }
-  .about-section p {
+  .section-description {
     line-height: 2rem;
     font-weight: 400;
     letter-spacing: 2px;
+    color: var(--primaryColor);
   }
+
   /* 
-  ====== 
-  Error
-  ======
-  */
-  .error-page {
-    display: flex;
-    justify-content: center;
-  }
-  .error-container {
-    text-align: center;
-    text-transform: capitalize;
-  }
-  /* 
-  ====== 
   Cocktails List 
-  ======
   */
   
   .section {
@@ -218,6 +195,7 @@ Variables
     margin-bottom: 3.5rem;
     margin-top: 1rem;
   }
+  
   .cocktails-center {
     width: var(--smallWidth);
     margin: 0 auto;
@@ -225,7 +203,6 @@ Variables
     display: grid;
     row-gap: 2rem;
     column-gap: 2rem;
-    /* align-items: start; */
   }
   @media screen and (min-width: 576px) {
     .cocktails-center {
@@ -233,9 +210,7 @@ Variables
     }
   }
   /* 
-  ====== 
   Cocktail 
-  ======
   */
   
   .cocktail {
@@ -256,25 +231,9 @@ Variables
     border-top-left-radius: var(--mainBorderRadius);
     border-top-right-radius: var(--mainBorderRadius);
   }
-  .cocktail-footer {
-    padding: 1.5rem;
-  }
-  .cocktail-footer h3,
-  .cocktail-footer h4,
-  .cocktail-footer p {
-    margin-bottom: 0.3rem;
-  }
-  .cocktail-footer h3 {
-    font-size: 2rem;
-  }
-  .cocktail-footer p {
-    color: var(--darkGrey);
-    margin-bottom: 0.5rem;
-  }
+  
   /* 
-  ====== 
   Form
-  ======
   */
   .search {
     margin-top: 1rem;
@@ -309,9 +268,7 @@ Variables
     font-size: 1.2rem;
   }
   /* 
-  ====== 
   Cocktail
-  ======
   */
   
   .cocktail-section {
