@@ -9,17 +9,17 @@ import Cart from "./components/Cart";
 
 function App() {
   return (
-    <div>
       <Router>
-        <Navbar />
+        <div>
+        <Navbar/>
+        </div>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/cocktail/:Id" element={<SingleCocktail />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/cart" element={<Cart />} />
+          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/cocktail/:Id" element={<SingleCocktail/>} />
+          <Route exact path="/about" element={<About/>} />
+          <Route exact path="/cart" element={<Cart/>} />
         </Routes>
       </Router>
-    </div>
   );
 }
 
