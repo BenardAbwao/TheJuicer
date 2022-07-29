@@ -115,6 +115,7 @@ Variables
   }
   .btn-details {
     padding: 0.25rem 0.4rem;
+    margin-bottom: 0.3em;
   }
   .btn-details:hover {
     background: var(--primaryLightColor);
@@ -371,6 +372,69 @@ Variables
   }
   .loader:after {
     left: 1.5em;
+  }
+
+  .app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.25em;
+    height: 100vh;
+    background-color: var(--mainBackground);
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    height: 2.5em;
+    width: 20em;
+    border: 0.0625em solid rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="submit"] {
+    margin-top: 0.625em;
+    cursor: pointer;
+    font-size: 0.9375em;
+    background: var(--mainWhite);
+    border: 0.0625em solid var(--mainWhite);
+    color: var(--mainGrey);
+    padding: 0.625em 1.25em;
+  }
+  
+  input[type="submit"]:hover {
+    background: var(--primaryColor);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-form {
+    background-color: var(--mainBackground);
+    padding: 2rem;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2), 0 0.375em 1.25em 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: var(--mainRed);
+    font-size: 0.75em;
+  }
+  
+  .title {
+    font-size: 1.563em;
+    margin-bottom: 1em;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 0.625em;
   }
   @-webkit-keyframes load1 {
     0%,
