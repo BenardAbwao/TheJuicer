@@ -1,7 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -16,7 +14,7 @@ const Navbar = () => {
             <NavLink to={"/about"}>Contact Us</NavLink>
           </li>
           <li>
-            <NavLink to={"/cart"}><FontAwesomeIcon icon={faCartShopping} size="1.5x" /></NavLink>
+            <NavLink to={"/signup"}>Sign Up</NavLink>
           </li>
         </ul>
       </div>
