@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/TheJuicer/static/css/main.5ba47070.css",
+    "main.css": "/TheJuicer/static/css/main.14e07345.css",
     "main.js": "/TheJuicer/static/js/main.92434653.js",
     "index.html": "/TheJuicer/index.html",
-    "main.5ba47070.css.map": "/TheJuicer/static/css/main.5ba47070.css.map",
+    "main.14e07345.css.map": "/TheJuicer/static/css/main.14e07345.css.map",
     "main.92434653.js.map": "/TheJuicer/static/js/main.92434653.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ba47070.css",
+    "static/css/main.14e07345.css",
     "static/js/main.92434653.js"
   ]
 }
